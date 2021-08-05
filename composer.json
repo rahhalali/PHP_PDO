@@ -1,0 +1,21 @@
+{
+  "name": "vendor_name/First",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "ali",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "phpstan/phpstan": "^0.12.93",
+    "ext-pdo": "*",
+    "phpoffice/phpspreadsheet": "^1.18"
+  },
+  "autoload": {
+    "psr-4": {"App\\": "Classes/"}
+  }
+
+}

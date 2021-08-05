@@ -1,0 +1,131 @@
+h3{
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 90%;
+    margin: 5px auto;
+    background-color:black;
+    color: white;
+    border-radius: 64px;
+}
+.wrapp{
+    width: 90%;
+    text-align: center;
+    margin: 2% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container2 {
+    width: 90%;
+    margin: 1% auto 0% auto;
+}
+button.export{
+    width:200px;
+    padding: 10px;
+    border-radius: 64px;
+    border: none;
+    background: #5bc995;
+    cursor: pointer;
+    font-weight: bold;
+}
+.container1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    }
+
+form{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+button.add{
+    width: 200px;
+    border-radius: 64px;
+    color: #3c97bf;
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline-block;
+    margin: 3% auto;
+}
+label{
+    font-size: 30px;
+    text-decoration:underline ;
+    padding: 5px;
+    font-weight: bold;
+}
+button.add:hover{
+    color: #3c97bf;
+    background-color: black;
+}
+input{
+    border-radius: 64px;
+    padding: 10px;
+    width: 40%;
+    margin: 1% auto;
+    display: inline-block;
+    outline: 0;
+}
+button.export:hover{
+    color: #5bc995;
+    background-color: black;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 2% auto;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+.pagination{
+    width:40%;
+    text-align: center;
+    margin: 0 auto;
+}
+.inner{
+    width:80%;
+    margin: 0 auto;
+}
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+.pagination a:hover:not(.active) {background-color: #ddd;}
+i{
+    color: black;
+}
+button.edit,button.delete{
+    padding: 7px;
+    border-radius: 9px;
+    border: 2px solid gray;
+    cursor: pointer;
+    background-color: gainsboro;
+}
+button:hover{
+    background-color: white;
+}

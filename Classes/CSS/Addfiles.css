@@ -1,0 +1,56 @@
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 2% auto;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.container{
+    width: 90%;
+    margin: 1% auto;
+}
+label{
+    margin-bottom: 1%;
+}
+input[type="file"]{
+    cursor: pointer;
+
+}
+.btn{
+    width: 70px;
+    padding: 10px;
+    margin-top: 1%;
+    background-color: #307cb6;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+form{
+    padding-top: 1%;
+}
+button a{
+    color: black;
+}
+button.edit,button.delete,button.download{
+    padding: 7px;
+    border-radius: 9px;
+    border: 2px solid gray;
+    cursor: pointer;
+    background-color: gainsboro;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
